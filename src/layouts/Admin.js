@@ -12,8 +12,6 @@ import Sidebar from "components/Sidebar/Sidebar.js";
 import routes from "routes.js";
 
 import styles from "assets/jss/material-dashboard-react/layouts/adminStyle.js";
-
-import image from "assets/img/sidebar.jpg";
 import logo from "assets/img/spacex-logo.png";
 
 let ps;
@@ -80,7 +78,7 @@ export default function Admin({ ...rest }) {
         routes={routes}
         logoText={"Creative Tim"}
         logo={logo}
-        image={image}
+        image="https://images.unsplash.com/photo-1518365050014-70fe7232897f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
         handleDrawerToggle={handleDrawerToggle}
         open={mobileOpen}
         color={"primary"}
